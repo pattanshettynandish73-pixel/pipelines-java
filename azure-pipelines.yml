@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: Default
+  name: Default   # points to your self-hosted WSL agent
 
 steps:
 - task: Maven@3
